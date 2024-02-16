@@ -6,6 +6,21 @@
 
 *HTTPリクエスト：GET*
 
+`ps`車両情報
+
+| 項       | タイプ                           | 内容             | 備考     |
+| -------- | ------------------------------| ---------------- | -------- |
+| tr      | str                           |           |          |
+| sy      | str                           |           |          |
+| sy_tr      | str                           |           |          |
+| ki      | str                           |           |          |
+| bs      | str                           |           |          |
+| dl      | str                           |           |          |
+| ik      | str                           |           |          |
+| ik_tr      | str                           |           |          |
+| sr      | str                           |両目|          |
+| inf      | str                           |運営情報|          |
+
 <details>
 <summary>Json Back</summary>
   
