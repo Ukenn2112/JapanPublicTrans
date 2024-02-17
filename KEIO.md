@@ -10,16 +10,16 @@
 
 | 項       | タイプ                         | 内容             | 備考     |
 | ------- | ------------------------------| ---------------- | -------- |
-| tr      | str                           |車両番号|          |
-| sy      | str                           |車種|          |
-| sy_tr   | str                           |車種|車種変更|
-| ki      | str                           |不明|          |
-| bs      | str                           |不明|          |
-| dl      | str                           |遅延時間|          |
-| ik      | str                           |行き先|          |
-| ik_tr   | str                           |行き先の場所|          |
-| sr      | str                           |両目|          |
-| inf     | str                           |運営情報|          |
+| tr      | str                           |車両番号           |          |
+| sy      | str                           |車種               |          |
+| sy_tr   | str                           |車種               |車種変更|
+| ki      | str                           |走行方向            |`0`新宿方面、`1`八王子方面|
+| bs      | str                           |停靠ホーム          |          |
+| dl      | str                           |遅延時間            |          |
+| ik      | str                           |行き先             |          |
+| ik_tr   | str                           |行き先駅           |          |
+| sr      | str                           |両目              |          |
+| inf     | str                           |運営情報           |          |
 
 <details>
 <summary>Json Back</summary>
