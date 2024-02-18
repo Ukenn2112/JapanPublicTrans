@@ -757,6 +757,8 @@
 
 *HTTPリクエスト：GET*
 
+![image](https://i.opentidkeio.jp/unkouinf/unkou_pub.png)
+
 ## 車種
 
 > https://i.opentidkeio.jp/config/syasyu.json
