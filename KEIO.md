@@ -524,7 +524,7 @@
 
 </details>
 
-## 
+## 列車時間表
 
 >https://i.opentidkeio.jp/dia/{列車id}.json
 
@@ -750,6 +750,12 @@
     jyokyo_4: "遅れています",
 }
 ```
+
+運輸状況図示
+
+> https://i.opentidkeio.jp/unkouinf/unkou_pub.png
+
+*HTTPリクエスト：GET*
 
 ## 車種
 
