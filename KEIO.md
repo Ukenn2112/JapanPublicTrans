@@ -726,23 +726,30 @@
 
 </details>
 
-## エラー状況
+## 運輸状況
 
-> https://i.opentidkeio.jp/data/error_info.json
+運輸 message
+
+> https://i.opentidkeio.jp/unkouinf/unkou_pub.csv
 
 *HTTPリクエスト：GET*
 
-<details>
-<summary>Json Back</summary>
-  
-  ```json
-{
-    "up": "02/16 04:00",
-    "schedule": "0"
-}
-  ```
+運輸 data
 
-</details>
+> https://i.opentidkeio.jp/unkouinf/unkou_pub2.csv
+
+*HTTPリクエスト：GET*
+
+線区：`senku_1` 京王線・相模原线　`senku_2` 井の頭線
+
+```json
+{
+    jyokyo_1: "概ね平常運行",
+    jyokyo_2: "運転見合わせ",
+    jyokyo_3: "一部運転見合わせ",
+    jyokyo_4: "遅れています",
+}
+```
 
 ## 車種
 
@@ -2555,6 +2562,22 @@
 </details>
 
 ## その他
+
+> https://i.opentidkeio.jp/data/error_info.json
+
+*HTTPリクエスト：GET*
+
+<details>
+<summary>Json Back</summary>
+  
+  ```json
+{
+    "up": "02/16 04:00",
+    "schedule": "0"
+}
+  ```
+
+</details>
 
 > https://i.opentidkeio.jp/config/other_chg.json
 
